@@ -13,8 +13,9 @@ body {
   font-weight: 700;
   text-align: center;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .quote-container {
@@ -76,6 +77,13 @@ body {
 
 .twitter-button:hover {
   color: #38a1f3;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 10px 10px 0px 10px;
 }
 
 /* Loader */
